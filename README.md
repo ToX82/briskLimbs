@@ -61,6 +61,7 @@ composer install
 ```
 
 ###### Latest Development Version
+Note: We strongly recomend to use the latest release package because the core is being re-written in Laravel. Use at your own risk.
 ```
 git clone https://github.com/briskLimbs/briskLimbs.git
 cd briskLimbs
