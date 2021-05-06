@@ -1,4 +1,4 @@
-The fastest video sharing software created with both webmasters and developers in mind.
+The fastest video sharing software created with both webmasters and developers in mind. [being written in Laravel now]
 ![BriskLimbs Home](http://brisklimbs.com/demo.png?)
 
 ## Table of contents
@@ -26,7 +26,7 @@ There aren't many open source video solutions out there. The ones that exist are
 We are focused on building this project in pursest sense of open source. We have the detremination to always put the community first and build things people actually want.
 
 ### Getting Started
-It is easy to get started with BriskLimbs no matter if you are a developer or a webmaster with no technical knowledge. 
+It is easy to get started with BriskLimbs no matter if you are a developer or a webmaster with no technical knowledge.
 
 #### Requirments
 briskLimbs requires several tools to run smoothly. You are recomended to have them all ready before installation.
@@ -68,12 +68,12 @@ cd briskLimbs
 composer install
 ```
 
-That's it. Now visit "http://{yourhost}/briskLimbs" in your browser and follow configuration instructions. 
+That's it. Now visit "http://{yourhost}/briskLimbs" in your browser and follow configuration instructions.
 
 Are you having problems installing? Shoot an email at brisklimbs@gmail.com and we'll be happy to do it for you. FREE :)
 
 #### Official Addons
-Addons allow you to extend basic functionality of BriskLimbs by adding new features, enhancing existing ones or simply making something easier. 
+Addons allow you to extend basic functionality of BriskLimbs by adding new features, enhancing existing ones or simply making something easier.
 
 - [TagsDip](https://github.com/briskLimbs/tagsDip): Add custom CSS, JavaScript or any other tags in Header or Footer of website
 - [TwitFeed](https://github.com/briskLimbs/twitFeed): Show Twitter timeline anywhere
@@ -120,34 +120,34 @@ BriskLimbs uses mp4 as standard format and can convert several other formats to 
 ### Contribute
 First of all, we are honoured that you consisdered us worthy of your time, your grace :)
 
-We'll be super excited to have you on board and you can get started in few simple steps. 
+We'll be super excited to have you on board and you can get started in few simple steps.
 
 1. Please make sure to read [Coding Conventions](https://github.com/briskLimbs/briskLimbs/wiki/Coding-Style-Guide) and [Addon Development](https://github.com/briskLimbs/briskLimbs/wiki/How-to:-Addons) if you are planning to build addons
 2. Fork this project, make any changes as you see fit and send us a pull request
 
-And that's it. :) 
+And that's it. :)
 
 #### Directory structure
 ```
 ├── addons                          # all addons are placed here
 │   ├── developerTools              # addon for making developer tools available for admins
 │   │   ├── developerTools.php      # main file for addon
-│   │   ├── install.php             
-│   │   ├── pages                   
+│   │   ├── install.php
+│   │   ├── pages
 │   │   │   ├── configs.php
 │   │   │   ├── info.php
 │   │   │   └── requirements.php
 │   │   └── plugin.json             # file responsible for defining an addon
 │   └── geoLocation                 # addon for tracking user location
 │       ├── functions.php
-│       ├── install.php             
+│       ├── install.php
 │       ├── location.php            # main file addon
 │       └── plugin.json             # file responsible for defining an addon
 ├── admin                           # admin dashboard files
 │   └── skins                       # admin skins are placed here
 │       └── default                 # holds backend and frontend files for skin
 │           ├── addons.php          # admin addons manager
-│           ├── blank.php           
+│           ├── blank.php
 │           ├── index.php           # admin dashboard
 │           ├── page.php            # blank page used for embeding pages requested by addons
 │           ├── settings.php        # admin settings
@@ -160,14 +160,14 @@ And that's it. :)
 │           │   ├── signin.html
 │           │   ├── users.html
 │           │   └── videos.html
-│           ├── users.php           # admin users manager             
+│           ├── users.php           # admin users manager
 │           └── videos.php          # admin videos manager
 ├── config.php                      # initializes core of briskLimbs
 ├── configs                         # holds configuration files
-│   ├── configs.php                 # holds static overall configurations 
-│   ├── constants.php               # defines base constants  
+│   ├── configs.php                 # holds static overall configurations
+│   ├── constants.php               # defines base constants
 │   ├── db.php                      # holds database credentials, created on installation
-│   └── db.sample.php               
+│   └── db.sample.php
 ├── daemons                         # these are files used for running background processes
 │   └── conversion.php              # handles entire conversion process of a video
 ├── helpers                         # helper functions that speed things up
@@ -177,9 +177,9 @@ And that's it. :)
 ├── index.php                       # all requests land on this page and get routed
 ├── installer                       # handles installation of briskLimbs
 │   ├── assets                      # files used for styling UI
-│   │   ├── bootstrap.min.css   
+│   │   ├── bootstrap.min.css
 │   │   └── signin.css
-│   ├── functions.php               # main functionality of installer 
+│   ├── functions.php               # main functionality of installer
 │   ├── imports                     # sql files to be imported at start
 │   │   ├── addons.sql
 │   │   ├── settings.sql
@@ -187,7 +187,7 @@ And that's it. :)
 │   │   └── videos.sql
 │   ├── install.php                 # main file for handling installation
 │   ├── pages                       # sub pages for handling installation sections
-│   │   ├── checks.php              # runs requirement checks 
+│   │   ├── checks.php              # runs requirement checks
 │   │   ├── finish.php              # runs final updates
 │   │   ├── footer.php
 │   │   ├── header.php
@@ -220,7 +220,7 @@ And that's it. :)
 │   └── Videos.php                  # videos related actions
 ├── README.md
 ├── skins                           # holds frontend skins
-│   └── ivar                        # default skin 
+│   └── ivar                        # default skin
 │       ├── 404.php
 │       ├── assets
 │       │   ├── css
